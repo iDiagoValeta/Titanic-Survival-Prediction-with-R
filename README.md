@@ -43,6 +43,11 @@ Ensure you have **R** and, preferably, **RStudio** installed on your system.
 
 ### 2. Clone the Repository
 
-```bash
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
+### 3. Install Libraries
+Open an R session (or RStudio) and run the following commands in the console to install the necessary libraries:
+
+install.packages("tidyverse")
+install.packages("ranger")
+
+### 4. Run the Script
+Open the titanic.R file in RStudio. Make sure the train.csv and test.csv files are in the same working directory. Then, run the entire script.
